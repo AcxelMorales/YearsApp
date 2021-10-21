@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Years App</string>
+
+    <string name="enter_year">Enter your age</string>
+    <string name="send">Send</string>
+    <string name="hint">Type your age please</string>
+
+    <string name="hint_year">Years</string>
+    <string name="text_no_access">You are not old enough to use this app</string>
+    <string name="text_years_old">You have to be over 18 years old</string>
+</resources>

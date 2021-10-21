@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/textYear"
+        android:layout_width="match_parent"
+        android:textAllCaps="true"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_year"
+        android:textSize="45px"
+        android:textStyle="bold"
+        android:background="@color/teal_700"
+        android:textColor="@color/white"
+        android:paddingVertical="10dp"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/inputYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:inputType="number"
+        android:hint="@string/hint" />
+
+    <Button
+        android:id="@+id/mainActivityBtnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/send" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoAccess"
+    android:background="@color/purple_200"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/activityNoAccess"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_no_access" />
+
+    <TextView
+        android:id="@+id/activityYearOld"
+        android:layout_below="@id/activityNoAccess"
+        android:textSize="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_years_old" />
+
+</RelativeLayout>
